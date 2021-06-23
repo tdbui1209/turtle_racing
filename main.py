@@ -34,7 +34,7 @@ class Game:
         while self.race_on:
             for turtle in self.all_turtles:
                 turtle.forward(random.randint(0, 20))
-                self.end()
+            self.end()
 
     def end(self):
         for turtle in self.all_turtles:
